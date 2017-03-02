@@ -1,0 +1,15 @@
+ul{
+  margin: 0 auto;
+  width: 90%;
+  list-style: none;
+}
+
+li{
+  width: 15%;
+  margin: 2%;
+  float: left;
+}
+
+img{
+  width: 100%;
+}

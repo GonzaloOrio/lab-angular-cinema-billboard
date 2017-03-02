@@ -1,12 +1,7 @@
 
-<div *ngFor="let movie of movies" [ngStyle]="{'background-image': 'url('+food.image+')'}"></div>
-
-<!-- <ul>
-  <li *ngFor="let movie of movies" [ngStyle]="{'background-image': 'url('+food.image+')'}">
-    <div class="info-food">
-      <h2>{{movie.poster}} </h2>
-      <h4>{{food.calories}} Kcal</h4>
-      <h4>{{food.quantity}} uds</h4>
-    </div>
+<ul>
+  <li *ngFor="let movie of cinema.movies">
+    <a [routerLink]="['/movie/movie.id']" ><img src="{{movie.poster}}"/></a>
+    <!-- <a [routerLink]="['/movie/movie.id']" [ngStyle]="{'background-image': 'url('+movie.poster+')'}"></a> -->
   </li>
-</ul> -->
+</ul>
